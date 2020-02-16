@@ -1,0 +1,32 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+eralchemy = "*"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+psycopg2 = "*"
+flask-restplus = "*"
+flask-admin = "*"
+flask-bcrypt = "*"
+flask-jwt-extended = "*"
+gunicorn = "*"
+flask-login = "*"
+flask-wtf = "*"
+argparse = "*"
+google-cloud-storage = "*"
+invoke = "*"
+pytest = "*"
+marshmallow-oneofschema = "*"
+flask-cors = "*"
+
+[requires]
+python_version = "3.7"
