@@ -19,6 +19,8 @@ api = Api(
 # NOTE: Namespace dependencies must be imported inline
 from app.api.identity.routes import ns as identity_ns
 from app.api.authentication.routes import ns as authentication_ns
+from app.api.talentstat.routes import ns as talentstat_ns
 
+api.add_namespace(talentstat_ns)
 api.add_namespace(identity_ns)
 api.add_namespace(authentication_ns)
